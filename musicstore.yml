@@ -8,3 +8,11 @@ mysql:
     database: steeltoe
     username: root
     password: steeltoe
+    initialSize: 2
+    minIdle: 1
+    maxActive: 2
+    timeBetweenEvictionRunsMillis: 5000
+    minEvictableIdleTimeMillis: 5000
+    validationInterval: 2000
+    removeAbandoned : true
+    removeAbandonedTimeout: 4000
